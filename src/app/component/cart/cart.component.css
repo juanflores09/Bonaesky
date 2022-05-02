@@ -1,0 +1,43 @@
+body{
+    font-size: 20px;
+    padding: 10px;
+}
+:root{
+    --color-primary: rgb(47, 137, 255);;
+}
+.coverPage{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../../assets/img/hannah-morgan-ycVFts5Ma4s-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-coverPage{
+    height: 50%;
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .cont-coverPage h1{
+        padding: 0.4em;
+        font-size: 3.8em;
+    }
+    .cont-coverPage a{
+        width: 150px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1em;
+        border: 1.6px solid #fff;
+        padding: 0.45em;
+        border-radius: 1em;
+        text-align: center;
+    }
+    .cont-coverPage a:hover{
+        background-color: rgb(47, 137, 255);
+        border: 1.6px solid rgb(47, 137, 255);
+    }
